@@ -1,0 +1,57 @@
+package PDJ_XD7;
+
+{$R *.res}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO ON}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DESCRIPTION 'PDJ XP Component '}
+{$IMPLICITBUILD OFF}
+
+requires
+  rtl,
+  vcl,
+  designide,
+  vclactnband,
+  vclx,
+  dbrtl,
+  vcldb;
+
+contains
+  PDJ_XPB in 'PDJ_XPB.pas',
+  PDJ_XP_REG in 'PDJ_XP_REG.pas',
+  PDJ_XPPB in 'PDJ_XPPB.pas',
+  PDJ_XPRB in 'PDJ_XPRB.pas',
+  PDJ_XPC in 'PDJ_XPC.pas',
+  PDJ_XPSpB in 'PDJ_XPSpB.pas',
+  PDJ_XP_HE in 'PDJ_XP_HE.pas',
+  PDJ_XPGB in 'PDJ_XPGB.pas',
+  PDJ_XPRGB in 'PDJ_XPRGB.pas',
+  PDJ_XPCHL in 'PDJ_XPCHL.pas',
+  PDJ_XPDBC in 'PDJ_XPDBC.pas',
+  PDJ_XPHD in 'PDJ_XPHD.pas',
+  PDJ_XPEB in 'PDJ_XPEB.pas',
+  PDJ_XPDBG in 'PDJ_XPDBG.pas',
+  PDJ_XPCS in 'PDJ_XPCS.PAS',
+  PDJ_XPInCa in 'PDJ_XPInCa.pas',
+  PDJ_XPDBEDate in 'PDJ_XPDBEDate.pas',
+  PDJ_XPEDate in 'PDJ_XPEDate.pas';
+
+end.
